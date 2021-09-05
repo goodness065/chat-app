@@ -41,7 +41,8 @@ body{
 }
 .main-con{
   height:fit-content;
-  background-color: rgb(234, 233, 236);
+  /* background-color: rgb(234, 233, 236); */
+  background-color: #dadbd3;
   width: 100%;
   position: absolute;
   padding: 0 80px;
@@ -49,7 +50,8 @@ body{
 
 .main-con2{
   transform: translateY(-15px);
-  box-shadow: 20px 20px 40px rgb(0 0 0 / 10%), 0px 0px 20px rgb(0 0 0 / 10%);
+  /* box-shadow: 20px 20px 40px rgb(0 0 0 / 10%), 0px 0px 20px rgb(0 0 0 / 10%); */
+  box-shadow: 1px 4px 20px -6px rgb(0, 0, 0, 0.7);
   border-radius: 10px;
   width: 100%;
   height: fit-content;

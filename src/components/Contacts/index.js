@@ -15,7 +15,7 @@ import search from "../../assets/icons/search.png";
 
 const Contact = ({setSelectedChat}) => {
   const information = [
-    { img: belema, name: "Belema Dick", about: "Follow @Belz.adorn", onClick: (()=>{ alert("gdftdyud")})},
+    { img: belema, name: "Belema Dick", about: "Follow @Belz.adorn"},
     { img: boma, name: "Boma Amakiri", about: "Full stack developer" },
     {
       img: eric,
@@ -48,7 +48,6 @@ const Contact = ({setSelectedChat}) => {
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [show, setShow] = useState(false);
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
   };
@@ -82,6 +81,7 @@ const Contact = ({setSelectedChat}) => {
             onClick = {()=>setSelectedChat(item)}
           />
         ))}
+        {/* {rooms} */}
       </div>
       {/* {show ? <Belema /> : null } */}
     </div>

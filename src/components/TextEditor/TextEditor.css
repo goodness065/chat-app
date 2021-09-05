@@ -1,0 +1,59 @@
+.wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  
+}
+.editor-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+.editor-con {
+  margin-top: -29px;
+  height: 100%;
+  /* border: 1px solid #adb5bd; */
+}
+
+.rdw-editor-main{
+  height: 40px;
+  overflow: auto;
+  background-color: #fff;
+}
+
+.public-DraftStyleDefault-block{
+  margin: 5px 0;
+}
+
+.DraftEditor-root{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .rdw-editor-wrapper, .rdw-editor-toolbar, .rdw-editor-main{
+  border-radius: 30px;
+} */
+
+.rdw-editor-toolbar{
+  border-radius: 10px 10px 0 0;
+}
+
+.rdw-editor-main{
+  border-radius: 0 0 10px 10px;
+}
+
+.rdw-editor-toolbar {
+  padding: 10px;
+  margin: 0%;
+}
+
+.rdw-text-align-wrapper, .rdw-dropdown-selectedtext, .rdw-block-wrapper, .rdw-fontsize-wrapper, .rdw-fontfamily-wrapper, .rdw-list-wrapper {
+  display: none;
+}
+
+::placeholder {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}

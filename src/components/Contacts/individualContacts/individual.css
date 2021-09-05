@@ -4,7 +4,11 @@
     align-items: center;
     padding-bottom: 10px;
     border-bottom: solid 1px #cacdd1;
-    cursor:default;
+    cursor:pointer;
+}
+
+.individual-contact:hover{
+    background-color: #ededed;
 }
 
 .individual-text{
@@ -16,8 +20,6 @@
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-    background-color: red;
-    
 }
 
 .individual-pic{

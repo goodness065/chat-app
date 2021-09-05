@@ -2,6 +2,7 @@ import React from 'react';
 import "./individual.css"
 
 const IndividualContact = ({img, name, about, onClick}) =>{
+  
     return (
         <div className="individual-contact" onClick= {onClick}>
             <div className="individual-pic-con">

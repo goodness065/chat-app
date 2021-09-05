@@ -5,7 +5,6 @@ import { IsEmpty} from "react-lodash"
 import './rightmain.css'
 
 const RightMainPage = ({selectedChat}) => {
-    console.log(selectedChat)
     return (
         <div className="right-main">
             {
